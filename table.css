@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://media.istockphoto.com/id/1467739359/photo/cup-of-coffee-with-smoke-and-coffee-beans-on-old-wooden-background.jpg?s=612x612&w=0&k=20&c=tE80r7iDn7S9YwIJVuKAm5KmpJPVz5HbRDc975IlKVo=");
+    text-align: center;
+    border: double thick;
+    border-color: wheat;
+
+}
+
+h1 {
+    background-image: url("https://img.freepik.com/premium-photo/coffee-beans-wooden-background-hi-resolution-photo_463999-1837.jpg");
+    background-size: 100% 100%;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    font-size: 3rem;  
+   }
+    
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background:black;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+th {
+    background:linear-gradient(burlywood 10%,beige 20%,brown 30%);
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    border: thick black;
+}
+
+td {
+    padding: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color:burlywood;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgoldenrodyellow;
+}
+
+tr:hover {
+    background-color:peachpuff;
+    transition: 0.3s;
+    
+}
+
+button {
+    background: brown;
+    color: wheat;
+    border: thick;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: peru;
+    transform: scale(1.1);
+}
+
