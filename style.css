@@ -258,7 +258,6 @@ div{
     display:grid;
     grid-template-columns: repeat(2,1fr);
     padding: 20px;
-    /* background-color: chocolate; */
     background: radial-gradient(orange,chocolate,brown);
     border: 10px solid beige;
 }
